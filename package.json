@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
+    "dev": "concurrently \"npm run serve:dev\" \"npm run rescript:dev\"",
     "serve:dev": "npx webpack serve --mode=development",
     "rescript:dev": "npx rescript build -w",
     "build": "webpack",

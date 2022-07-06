@@ -2,7 +2,7 @@
     "name": "rescript-webpack",
     "sources": [
         {
-            "dir": "src", // update this to wherever you're putting ReScript files
+            "dir": "src",
             "subdirs": true
         }
     ],

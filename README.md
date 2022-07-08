@@ -1,4 +1,6 @@
-## Some testing of Hindley Milner type system languages
+## Test a web Hindley Milner languages
 
-- Rescript 9x
+- Rescript 10.1
+- React 18
+- Automatic JSX transform
 - Webpack 5

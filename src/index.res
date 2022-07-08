@@ -1,11 +1,14 @@
 %%raw("import './index.css'")
-open Webapi.Dom
+open Greet
 
-Js.log("hello world")
+let rootElement: option<Dom.element> = ReactDOM.querySelector("#root")
 
-let container = document->Document.getElementById("root")
+switch rootElement {
+| Some(re) => {
+    // https://rescript-lang.org/docs/react/latest/rendering-elements#rendering-elements-to-the-dom
+    let root = ReactDOM.Client.createRoot(re)
+    ReactDOM.Client.Root.render(root, <Greet name="World" />)
+  }
 
-switch container {
-| Some(c) => ReactDOM.render(<div> {React.string("hello world")} </div>, c)
 | None => ()
 }

@@ -13,18 +13,18 @@
   "license": "ISC",
   "dependencies": {
     "@rescript/react": "^0.11.0",
-    "@rescript/std": "^10.1.2",
+    "@rescript/std": "^10.1.4",
     "@types/node": "^18",
-    "concurrently": "^7.6.0"
+    "concurrently": "^8.2.0 "
   },
   "devDependencies": {
-    "@types/webpack": "^5.28.0",
-    "css-loader": "^6.7.3",
-    "html-webpack-plugin": "^5.5.0",
-    "rescript": "^10.1.2",
-    "style-loader": "^3.3.1",
-    "webpack": "^5.75.0",
-    "webpack-cli": "^5.0.1",
-    "webpack-dev-server": "^4.11.1"
+    "@types/webpack": "^5.28.1",
+    "css-loader": "^6.8.1",
+    "html-webpack-plugin": "^5.5.3",
+    "rescript": "^10.1.4",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.86.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
   }
 }

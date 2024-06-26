@@ -11,7 +11,7 @@ module.exports = (env, argv) => {
     return {
         target: 'web',
         mode: isDevelopment ? 'development' : 'production',
-        entry: './src/index.bs.js',
+        entry: './src/index.res.js',
         devtool: 'inline-source-map',
         devServer: {
             hot: true,

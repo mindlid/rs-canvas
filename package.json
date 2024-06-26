@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "concurrently \"npm run serve:dev\" \"npm run rescript:dev\"",
     "serve:dev": "npx webpack serve --mode=development",
-    "rescript:dev": "npx rescript build -w",
+    "dev:res": "npx rescript build -w",
     "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,19 +14,19 @@
   "dependencies": {
     "@rescript/core": "^1.5.0",
     "@rescript/react": "^0.12.2",
-    "@types/node": "^18",
-    "concurrently": "^8.2.0 ",
+    "@types/node": "^20.14.9",
+    "concurrently": "^8.2.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "@types/webpack": "^5.28.1",
-    "css-loader": "^6.8.1",
-    "html-webpack-plugin": "^5.5.3",
+    "@types/webpack": "^5.28.5",
+    "css-loader": "^7.1.2",
+    "html-webpack-plugin": "^5.6.0",
     "rescript": "^11.1.2",
-    "style-loader": "^3.3.3",
-    "webpack": "^5.86.0",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.92.1",
     "webpack-cli": "^5.1.4",
-    "webpack-dev-server": "^4.15.1"
+    "webpack-dev-server": "^5.0.4"
   }
 }
